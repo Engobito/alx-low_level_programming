@@ -1,2 +1,2 @@
 #!/bin/bash
-echo `gcc $CFILE` > c 
+echo `gcc $CFILE | ./a.out` > c 
