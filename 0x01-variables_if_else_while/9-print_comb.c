@@ -15,14 +15,8 @@ int main(void)
 	{
 	putchar(a);
 	if (a == 57)
-	{
-	putchar('$');
-	}
-	else
-	{
 	putchar(',');
 	putchar(' ');
-	}
 	a = a + 1;
 	}
 	putchar('\n');
