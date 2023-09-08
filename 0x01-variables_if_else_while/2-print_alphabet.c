@@ -11,7 +11,7 @@ int main(void)
 {
 	int a = 'a', z = 'z';
 
-	while (n <= z)
+	while (a <= z)
 	{
 	putchar(n);
 	n = n + z;
