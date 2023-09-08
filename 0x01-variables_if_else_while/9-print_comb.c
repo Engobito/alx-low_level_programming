@@ -14,8 +14,6 @@ int main(void)
 	while (a < 58)
 	{
 	putchar(a);
-	if (a == 57)
-	putchar(a);
 	putchar(',');
 	putchar(' ');
 	a = a + 1;
