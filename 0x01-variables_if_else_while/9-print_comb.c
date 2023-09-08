@@ -15,8 +15,10 @@ int main(void)
 	{
 	putchar(a);
 	if (a != 57)
+	{
 	putchar(',');
 	putchar(' ');
+	}
 	a = a + 1;
 	}
 	return (0);
