@@ -15,6 +15,7 @@ int main(void)
 	{
 	putchar(a);
 	if (a == 57)
+	putchar(a);
 	putchar(',');
 	putchar(' ');
 	a = a + 1;
