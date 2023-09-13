@@ -2,19 +2,27 @@
 #include "main.h"
 
 /**
- *  print_to_98 - write numbers to 98
+ * print_to_98 - write numbers to 98
  *
  * @n: the number i start
 */
 void print_to_98(int n)
 {
-	for (n; n <= 98; n++)
+	int count;
+
+	if (n < 98)
 	{
-	printf("%d", n);
-		if (n != 98)
+		for (count = n; count < 98; count++)
 		{
-		_putchar(',' + ' ');
+		printf("%d, ", count);
 		}
 	}
-	_putchar('\n');
+	if (n > 98)
+	{
+		for (count = n; count > 98; count--)
+		{
+		printf("%d, ", count);
+		}
+	}
+	printf("98\n");
 }
