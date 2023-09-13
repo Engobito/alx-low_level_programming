@@ -13,7 +13,8 @@ void to_98(int n)
 	printf("%d", n);
 		if (n != 98)
 		{
-		_putchar (',' + ' ');
+		_putchar(',' + ' ');
 		}
 	}
+	_putchar('\n');
 }
