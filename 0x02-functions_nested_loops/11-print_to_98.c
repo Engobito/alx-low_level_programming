@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * to_98 - write numbers to 98
+ *  print_to_98 - write numbers to 98
  *
  * @n: the number i start
 */
-void to_98(int n)
+void  print_to_98(int n)
 {
 	for (n; n <= 98; n++)
 	{
