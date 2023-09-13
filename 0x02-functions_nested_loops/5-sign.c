@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_sign: A function that found the sign of number
+ * print_sign - A function that found the sign of number
  *
  * @n: The number
  *
