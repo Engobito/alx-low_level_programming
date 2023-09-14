@@ -21,7 +21,7 @@ void print_diagonal(int n)
 		_putchar('\\');
 		if (dig != times)
 		{
-			printf('\n');
+			printf("\n");
 		}
 	}
 		for (i = 0; i < dig; i++)
