@@ -9,7 +9,7 @@
 
 void print_line(int n)
 {
-	int times, space;
+	int lnchar;
 
 	if (n <= 0)
 	{
@@ -17,13 +17,10 @@ void print_line(int n)
 	}
 	else
 	{
-		for (space = 1; space <= n; space++)
+		for (lnchar = 1; lnchar <= n; lnchar++)
 		{
-			for (times = 1; times <= space; times++)
-			{
-				_putchar(' ');
-				_putchar('\n');
-			}
+			_putchar('-');
 		}
+		_putchar('\n');
 	}
 }
