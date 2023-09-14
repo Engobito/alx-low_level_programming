@@ -9,7 +9,7 @@
 
 void print_diagonal(int n)
 {
-	int dig, times = n, i;
+	int postn, space;
 
 	if (n <= 0)
 	{
@@ -17,9 +17,9 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (dig = 1; dig <= n; dig++)
+		for (postn = 1; postn <= n; postn++)
 		{
-			for (i = 1; i <= dig; i++)
+			for (space = 1; space <= postn; space++)
 				_putchar(' ');
 			_putchar(92);
 			_putchar('\n');
