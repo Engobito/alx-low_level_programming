@@ -11,12 +11,19 @@
 
 void print_square(int size)
 {
-	int row, column;
-
-	for (row = 1; row <= size; row++)
-	{
-		for (column = 1; column <= size; column++)
-			_putchar('#');
+	if (size <= 0)
 		_putchar('\n');
+	else
+	{
+		int i, j;
+
+		for (i = 1; i <= size; i++)
+		{
+			for (j = i; j <= size; j++)
+				_putchar(' ');
+			for (j = 1; j <= i; j++)
+				_putchar('#');
+		_putchar('\n');
+		}
 	}
 }
