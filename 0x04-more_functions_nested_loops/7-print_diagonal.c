@@ -16,16 +16,16 @@ void print_diagonal(int n)
 	_putchar('\n');
 	return;
 	}
-	for (dig = 0; dig < times; dig++)
+	for (dig = 1; dig <= times; dig++)
 	{
 		_putchar('\\');
 		if (dig != times)
 		{
-			printf("\n");
+			_putchar('\n');
 		}
-	}
 		for (i = 0; i < dig; i++)
 		{
 			_putchar(' ');
 		}
+	}
 }
