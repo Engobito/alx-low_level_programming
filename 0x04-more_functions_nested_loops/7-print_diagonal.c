@@ -19,7 +19,10 @@ void print_diagonal(int n)
 	for (dig = 0; dig < times; dig++)
 	{
 		_putchar('\\');
-		_putchar('\n');
+		if (dig != times)
+		{
+			_putchar('\n');
+		}
 	}
 		for (i = 0; i < dig; i++)
 		{
