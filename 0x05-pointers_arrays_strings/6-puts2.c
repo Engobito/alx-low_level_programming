@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2 - the function that print 
+ * puts2 - the function that print
  *
  * @str: the value
  */
